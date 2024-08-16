@@ -9,7 +9,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'sk-'
 
 openai_client = OpenAI()
 MODEL_NAME = "text-embedding-3-small"
