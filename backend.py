@@ -19,7 +19,6 @@ collection_name_list = ['study_title', 'brief_summary', 'conditions']
 
 df = pd.read_csv('ctg-studies.csv')
 df = df.fillna('N/A')
-df = df[:100]
 # Preprocess columns
 def transform_name(name):
     return name.lower().replace(" ", "_")
